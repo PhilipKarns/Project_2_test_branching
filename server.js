@@ -6,7 +6,8 @@
 // =============================================================
 var express = require("express");
 var bodyParser = require("body-parser");
-
+var exphbr = require("express-handlebars");
+var mysql = require("mysql");
 
 // Sets up the Express App
 // =============================================================
